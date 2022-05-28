@@ -17,9 +17,11 @@ struct InputFieldView: View {
                 if isSecureField {
                     SecureField("", text: $fieldData)
                         .autocapitalization(.none)
+                        .disableAutocorrection(true)
                 } else {
                     TextField("", text: $fieldData)
                         .autocapitalization(.none)
+                        .disableAutocorrection(true)
                         .keyboardType(.emailAddress)
                 }
             }
