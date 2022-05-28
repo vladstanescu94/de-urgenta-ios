@@ -29,6 +29,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         self.window = window
 
         appCoordinator = ApplicationCoordinator(navigationController: rootNavigationController)
-        appCoordinator?.start()
+        
+        #warning("This is just for testing, run appCoordinator?.start()")
+        appCoordinator?.showLoginView()
     }
 }
