@@ -7,3 +7,18 @@
 "LandingPage.createAccount" = "Înscrie-te acum";
 
 "LandingPage.viewRoutes" = "Vezi trasee";
+
+"Authentication.loginIntro" = "Autentifică-te";
+
+"Authentication.loginForgotPasswordLabel" = "Ți-ai uitat parola?";
+
+"Authentication.loginButtonTitle" = "Intră în contul tău";
+
+"Authentication.Email.inputLabel" = "E-mail";
+
+"Authentication.Email.invalidMessage" = "E-mail invalid";
+
+"Authentication.Password.inputLabel" = "Parolă";
+
+"Authentication.Password.invalidMessage" = "Parolă invalidă";
+

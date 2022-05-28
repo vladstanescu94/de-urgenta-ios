@@ -9,9 +9,10 @@ struct LoginView: View {
             .padding(.top, 25)
             .padding(.trailing, 4.8)
 
-            Text("Autentifica-te")
-                .font(.largeTitle)
-
+            Text(AppStrings.Authentication.loginIntro.localized())
+                .font(.ibmPlex(.bold, size: 24))
+                .padding(.bottom, 24)
+            LoginFormView()
             Spacer()
         }
         .padding(.horizontal, 20)

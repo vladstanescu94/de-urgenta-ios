@@ -17,12 +17,11 @@ extension Font {
                 return "IBMPlexSans-Bold"
             case .semibold:
                 return "IBMPlexSans-SemiBold"
-                
             }
         }
     }
 
     static func ibmPlex(_ type: IBMPlex, size: CGFloat) -> Font {
-        return .custom(type.value, size: size)
+        .custom(type.value, size: size)
     }
 }

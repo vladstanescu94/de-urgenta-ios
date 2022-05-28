@@ -18,6 +18,7 @@
 		DE45A19B28420AA900056448 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE45A19A28420AA900056448 /* ContentView.swift */; };
 		DE45A19D28420AAB00056448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE45A19C28420AAB00056448 /* Assets.xcassets */; };
 		DE8B2E19284253C10033E5D0 /* Fonts+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8B2E18284253C10033E5D0 /* Fonts+Extensions.swift */; };
+		DE8B2E1B2842583F0033E5D0 /* LoginFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8B2E1A2842583F0033E5D0 /* LoginFormView.swift */; };
 		DEB12B3C2842335F000442E2 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB12B3B2842335F000442E2 /* LoginCoordinator.swift */; };
 		DEB12B3E28423399000442E2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB12B3D28423399000442E2 /* LoginView.swift */; };
 		DEB12B4528423E7F000442E2 /* TrailingCloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB12B4428423E7F000442E2 /* TrailingCloseButton.swift */; };
@@ -45,6 +46,7 @@
 		DE45A19A28420AA900056448 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DE45A19C28420AAB00056448 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE8B2E18284253C10033E5D0 /* Fonts+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fonts+Extensions.swift"; sourceTree = "<group>"; };
+		DE8B2E1A2842583F0033E5D0 /* LoginFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormView.swift; sourceTree = "<group>"; };
 		DEB12B3B2842335F000442E2 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
 		DEB12B3D28423399000442E2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		DEB12B4428423E7F000442E2 /* TrailingCloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingCloseButton.swift; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				DEB12B3D28423399000442E2 /* LoginView.swift */,
+				DE8B2E1A2842583F0033E5D0 /* LoginFormView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -370,6 +373,7 @@
 			files = (
 				DE8B2E19284253C10033E5D0 /* Fonts+Extensions.swift in Sources */,
 				BB8F3EC62842408500278975 /* AppStrings.swift in Sources */,
+				DE8B2E1B2842583F0033E5D0 /* LoginFormView.swift in Sources */,
 				DEB12B4528423E7F000442E2 /* TrailingCloseButton.swift in Sources */,
 				DEB12B3C2842335F000442E2 /* LoginCoordinator.swift in Sources */,
 				DEB12B3E28423399000442E2 /* LoginView.swift in Sources */,

@@ -30,4 +30,20 @@ enum AppStrings: String, Localizable {
         case createAccount = "LandingPage.createAccount"
         case viewRoutes = "LandingPage.viewRoutes"
     }
+
+    enum Authentication: String, Localizable {
+        case loginIntro = "Authentication.loginIntro"
+        case loginForgotPasswordLabel = "Authentication.loginForgotPasswordLabel"
+        case loginButtonTitle = "Authentication.loginButtonTitle"
+
+        enum Email: String, Localizable {
+            case inputLabel = "Authentication.Email.inputLabel"
+            case invalidMessage = "Authentication.Email.invalidMessage"
+        }
+
+        enum Password: String, Localizable {
+            case inputLabel = "Authentication.Password.inputLabel"
+            case invalidMessage = "Authentication.Password.invalidMessage"
+        }
+    }
 }

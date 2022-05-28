@@ -10,7 +10,8 @@ struct InputFieldView: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 4) {
-            Text(label.capitalized)
+            Text(label)
+                .font(.ibmPlex(.medium, size: 14))
                 .foregroundColor(.fieldLabel)
             HStack {
                 if isSecureField {
