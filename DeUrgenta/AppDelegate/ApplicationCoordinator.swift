@@ -21,7 +21,7 @@ final class ApplicationCoordinator: NSObject, Coordinator {
         landingPageCoordinator.delegate = self
         landingPageCoordinator.start()
     }
-    
+
     func showLoginView() {
         let loginCoordinator = LoginCoordinator(navigationController: navigationController)
         addChildCoordinator(loginCoordinator)

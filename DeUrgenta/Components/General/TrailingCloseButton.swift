@@ -12,7 +12,7 @@ struct TrailingCloseButton: View {
                 Image(systemName: "xmark")
                     .resizable()
                     .frame(width: 14.4, height: 14.4)
-                    .foregroundColor(.black)
+                    .foregroundColor(.regularText)
             })
         }
     }

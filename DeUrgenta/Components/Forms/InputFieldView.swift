@@ -11,7 +11,7 @@ struct InputFieldView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 4) {
             Text(label.capitalized)
-                .foregroundColor(.black)
+                .foregroundColor(.fieldLabel)
             HStack {
                 if isSecureField {
                     SecureField("", text: $fieldData)
@@ -28,7 +28,7 @@ struct InputFieldView: View {
 
             .overlay(
                 RoundedRectangle(cornerRadius: 6, style: .continuous)
-                    .stroke(showError ? Color.red : Color.secondary, lineWidth: 1)
+                    .stroke(showError ? Color.fieldErrorBorder : Color.fieldBorder, lineWidth: 1)
             )
             .shadow(color: .black.opacity(0.05), radius: 2, x: 0, y: 1)
 
