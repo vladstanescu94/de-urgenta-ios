@@ -19,6 +19,7 @@
 		DE45A19D28420AAB00056448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE45A19C28420AAB00056448 /* Assets.xcassets */; };
 		DEB12B3C2842335F000442E2 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB12B3B2842335F000442E2 /* LoginCoordinator.swift */; };
 		DEB12B3E28423399000442E2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB12B3D28423399000442E2 /* LoginView.swift */; };
+		DEB12B4528423E7F000442E2 /* TrailingCloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB12B4428423E7F000442E2 /* TrailingCloseButton.swift */; };
 		DEEA05E9284212E800140ADB /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEEA05E8284212E800140ADB /* Colors.xcassets */; };
 		DEEA05EB284214FC00140ADB /* AppUI.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEEA05EA284214FC00140ADB /* AppUI.xcassets */; };
 		DEEA05F02842156300140ADB /* IBMPlexSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEEA05ED2842156300140ADB /* IBMPlexSans-Bold.ttf */; };
@@ -43,6 +44,7 @@
 		DE45A19C28420AAB00056448 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEB12B3B2842335F000442E2 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
 		DEB12B3D28423399000442E2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DEB12B4428423E7F000442E2 /* TrailingCloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingCloseButton.swift; sourceTree = "<group>"; };
 		DEEA05E8284212E800140ADB /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		DEEA05EA284214FC00140ADB /* AppUI.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppUI.xcassets; sourceTree = "<group>"; };
 		DEEA05ED2842156300140ADB /* IBMPlexSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Bold.ttf"; sourceTree = "<group>"; };
@@ -219,6 +221,14 @@
 			path = Coordinator;
 			sourceTree = "<group>";
 		};
+		DEB12B4328423E65000442E2 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				DEB12B4428423E7F000442E2 /* TrailingCloseButton.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
 		DEEA05EC2842154D00140ADB /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -233,6 +243,7 @@
 		DEEA05F3284215B000140ADB /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				DEB12B4328423E65000442E2 /* General */,
 				DEEA05F4284215B500140ADB /* Protocols */,
 			);
 			path = Components;
@@ -345,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB8F3EC62842408500278975 /* AppStrings.swift in Sources */,
+				DEB12B4528423E7F000442E2 /* TrailingCloseButton.swift in Sources */,
 				DEB12B3C2842335F000442E2 /* LoginCoordinator.swift in Sources */,
 				DEB12B3E28423399000442E2 /* LoginView.swift in Sources */,
 				DEEA05F82842163600140ADB /* ApplicationCoordinator.swift in Sources */,

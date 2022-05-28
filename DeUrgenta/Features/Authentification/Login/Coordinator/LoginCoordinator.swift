@@ -14,6 +14,7 @@ final class LoginCoordinator: NSObject, Coordinator {
     func start() {
         let viewController = UIHostingController(rootView: LoginView())
         let navigation = UINavigationController(rootViewController: viewController)
+        navigation.navigationBar.isHidden = true
         navigationController.present(navigation, animated: true)
     }
 }

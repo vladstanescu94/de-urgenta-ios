@@ -2,7 +2,19 @@ import SwiftUI
 
 struct LoginView: View {
     var body: some View {
-        Text("Login")
+        VStack(alignment: .leading) {
+            TrailingCloseButton(action: {
+                print("Closing item")
+            })
+            .padding(.top, 25)
+            .padding(.trailing, 4.8)
+
+            Text("Autentifica-te")
+                .font(.largeTitle)
+
+            Spacer()
+        }
+        .padding(.horizontal, 20)
     }
 }
 
