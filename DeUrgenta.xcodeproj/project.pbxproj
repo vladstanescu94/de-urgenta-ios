@@ -20,6 +20,7 @@
 		DEB12B3C2842335F000442E2 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB12B3B2842335F000442E2 /* LoginCoordinator.swift */; };
 		DEB12B3E28423399000442E2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB12B3D28423399000442E2 /* LoginView.swift */; };
 		DEB12B4528423E7F000442E2 /* TrailingCloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB12B4428423E7F000442E2 /* TrailingCloseButton.swift */; };
+		DEB12B482842451A000442E2 /* InputFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB12B472842451A000442E2 /* InputFieldView.swift */; };
 		DEEA05E9284212E800140ADB /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEEA05E8284212E800140ADB /* Colors.xcassets */; };
 		DEEA05EB284214FC00140ADB /* AppUI.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEEA05EA284214FC00140ADB /* AppUI.xcassets */; };
 		DEEA05F02842156300140ADB /* IBMPlexSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEEA05ED2842156300140ADB /* IBMPlexSans-Bold.ttf */; };
@@ -45,6 +46,7 @@
 		DEB12B3B2842335F000442E2 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
 		DEB12B3D28423399000442E2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		DEB12B4428423E7F000442E2 /* TrailingCloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingCloseButton.swift; sourceTree = "<group>"; };
+		DEB12B472842451A000442E2 /* InputFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputFieldView.swift; sourceTree = "<group>"; };
 		DEEA05E8284212E800140ADB /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		DEEA05EA284214FC00140ADB /* AppUI.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppUI.xcassets; sourceTree = "<group>"; };
 		DEEA05ED2842156300140ADB /* IBMPlexSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Bold.ttf"; sourceTree = "<group>"; };
@@ -229,6 +231,14 @@
 			path = General;
 			sourceTree = "<group>";
 		};
+		DEB12B4628424505000442E2 /* Forms */ = {
+			isa = PBXGroup;
+			children = (
+				DEB12B472842451A000442E2 /* InputFieldView.swift */,
+			);
+			path = Forms;
+			sourceTree = "<group>";
+		};
 		DEEA05EC2842154D00140ADB /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -243,6 +253,7 @@
 		DEEA05F3284215B000140ADB /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				DEB12B4628424505000442E2 /* Forms */,
 				DEB12B4328423E65000442E2 /* General */,
 				DEEA05F4284215B500140ADB /* Protocols */,
 			);
@@ -367,6 +378,7 @@
 				BB8F3EBF28423C0F00278975 /* LandingPageView.swift in Sources */,
 				DEEA05FA284217F100140ADB /* SceneDelegate.swift in Sources */,
 				BB8F3EBE28423C0F00278975 /* LandingPageCoordinator.swift in Sources */,
+				DEB12B482842451A000442E2 /* InputFieldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

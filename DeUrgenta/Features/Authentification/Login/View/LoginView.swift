@@ -15,6 +15,7 @@ struct LoginView: View {
             Spacer()
         }
         .padding(.horizontal, 20)
+        .navigationBarHidden(true)
     }
 }
 
